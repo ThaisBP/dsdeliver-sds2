@@ -1,9 +1,8 @@
-import { type } from "os";
 import { checkIsSelected } from "./helpers";
 import ProductCard from "./ProductCard";
 import { Product } from "./types";
 
-type Props ={
+type Props = {
     products: Product[];
     selectedProducts: Product[];
     onSelectProduct: (product: Product) => void;
